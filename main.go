@@ -24,7 +24,7 @@ func main() {
 }
 
 
-func lissajous(out io.Writer) {
+func plotGraph(out io.Writer) {
   const (
     cycles = 5
     res = 0.001
